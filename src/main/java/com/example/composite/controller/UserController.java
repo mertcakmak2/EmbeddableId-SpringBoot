@@ -48,7 +48,7 @@ public class UserController {
     }
 
     @GetMapping("")
-    public List<User> addRoleToUser(){
+    public List<User> findAllUsers(){
 
         return userRepository.findAll();
     }
